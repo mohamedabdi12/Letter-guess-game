@@ -5,7 +5,7 @@ const game = {
     guessesRemaining: 12,
     lettersGuessed: [],
     currentWord: {},
-    wordBank: ['Pumpkin', 'Witch', 'Vampire', 'Skeleton', 'Haunted', 'Spooky', 'Zombie', 'Costume', 'Scarecrow', 'Candy', 'October'],
+    wordBank: ['Two thing are infinite: the universe and human stupidity; and I am not sure about the universe.'],
     guess: function(letter) {
         if (!this.lettersGuessed.includes(letter)) {
             this.lettersGuessed.push(letter);
